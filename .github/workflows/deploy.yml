@@ -36,7 +36,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-level: 22
+          node-version: '22'  
           cache: 'pnpm'
 
       - name: Instalar Dependências
