@@ -1,0 +1,62 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch: # Permite rodar manualmente
+
+# Dá permissão para o GitHub Actions fazer deploy no Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Garante que apenas um deploy rode por vez
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Código
+        uses: actions/checkout@v4
+
+      - name: Instalar pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 10.15.1
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-level: 22
+          cache: 'pnpm'
+
+      - name: Instalar Dependências
+        run: pnpm install
+
+      - name: Compilar Projeto React
+        run: pnpm run build
+        env:
+          # Define a subpasta do GitHub Pages para que os caminhos fiquem corretos
+          VITE_BASE_URL: /CGR-interceptor-dashboard/
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v4
+
+      - name: Fazer Upload do Artefato
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # O Vite compila o projeto e joga o resultado na pasta dist/public
+          path: 'dist/public'
+
+      - name: Deploy no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
