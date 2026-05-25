@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from "react";
-import { 
-  Card, 
-  CardContent, 
-  CardDescription, 
-  CardHeader, 
-  CardTitle 
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle
 } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { 
-  GitCommit, 
-  GitPullRequest, 
-  AlertCircle, 
-  Tag, 
-  Users, 
-  TrendingUp, 
-  Calendar, 
-  CheckCircle2, 
+import {
+  GitCommit,
+  GitPullRequest,
+  AlertCircle,
+  Tag,
+  Users,
+  TrendingUp,
+  Calendar,
+  CheckCircle2,
   ExternalLink,
   Shield,
   Clock,
@@ -29,13 +29,13 @@ import {
   Layers,
   ArrowUpRight
 } from "lucide-react";
-import { 
-  LineChart, 
-  Line, 
-  XAxis, 
-  YAxis, 
-  CartesianGrid, 
-  Tooltip as RechartsTooltip, 
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip as RechartsTooltip,
   ResponsiveContainer,
   BarChart,
   Bar,
@@ -167,10 +167,10 @@ export default function Home() {
     async function fetchData() {
       try {
         const [dataRes, historyRes] = await Promise.all([
-          fetch("/dashboard-data.json"),
-          fetch("/dashboard-history.json")
+          fetch("dashboard-data.json"),
+          fetch("dashboard-history.json")
         ]);
-        
+
         if (!dataRes.ok || !historyRes.ok) {
           throw new Error("Falha ao carregar os arquivos de dados.");
         }
@@ -320,7 +320,7 @@ export default function Home() {
   // Função para acionar a impressão otimizada para PDF
   const handleExportPDF = () => {
     toast.info("Preparando relatório para exportação...");
-    
+
     // Pequeno timeout para dar tempo do toast aparecer
     setTimeout(() => {
       window.print();
@@ -399,11 +399,11 @@ export default function Home() {
               </p>
             </div>
           </div>
-          
+
           <div className="flex items-center gap-2">
-            <Button 
-              variant="outline" 
-              size="sm" 
+            <Button
+              variant="outline"
+              size="sm"
               className="text-slate-600 hover:text-slate-900 border-slate-200"
               onClick={handleExportPDF}
             >
@@ -436,7 +436,7 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 print-full-width">
-        
+
         {/* Descrição do Projeto */}
         <div className="mb-8 p-6 rounded-2xl border border-slate-200 bg-white shadow-sm">
           <h2 className="text-lg font-semibold text-slate-900 mb-2">Sobre o Projeto</h2>
@@ -531,10 +531,10 @@ export default function Home() {
 
           {/* ABA: VISÃO DE NEGÓCIOS */}
           <TabsContent value="business" className="space-y-8 outline-none">
-            
+
             {/* Resumo Executivo & Histórico */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              
+
               {/* Card Resumo Executivo */}
               <Card className="lg:col-span-2 border-slate-200 shadow-sm bg-white card">
                 <CardHeader>
@@ -557,7 +557,7 @@ export default function Home() {
 
                   <div className="space-y-4">
                     <h3 className="font-semibold text-slate-900 text-sm tracking-wider uppercase">Principais Marcos & Impacto de Negócio</h3>
-                    
+
                     <div className="flex gap-4">
                       <div className="h-8 w-8 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
                         <Shield className="h-4 w-4" />
@@ -625,44 +625,44 @@ export default function Home() {
                   </CardTitle>
                   <CardDescription>Acompanhe de forma visual cada atualização do projeto e filtre por tipo de impacto</CardDescription>
                 </div>
-                
+
                 {/* Filtros Interativos */}
                 <div className="flex flex-wrap gap-1.5 bg-slate-100 p-1 rounded-lg no-print">
-                  <Button 
-                    variant={timelineFilter === "all" ? "default" : "ghost"} 
-                    size="sm" 
+                  <Button
+                    variant={timelineFilter === "all" ? "default" : "ghost"}
+                    size="sm"
                     className="h-7 text-xs rounded-md px-2.5"
                     onClick={() => setTimelineFilter("all")}
                   >
                     Todos
                   </Button>
-                  <Button 
-                    variant={timelineFilter === "business" ? "default" : "ghost"} 
-                    size="sm" 
+                  <Button
+                    variant={timelineFilter === "business" ? "default" : "ghost"}
+                    size="sm"
                     className="h-7 text-xs rounded-md px-2.5"
                     onClick={() => setTimelineFilter("business")}
                   >
                     Negócios
                   </Button>
-                  <Button 
-                    variant={timelineFilter === "feature" ? "default" : "ghost"} 
-                    size="sm" 
+                  <Button
+                    variant={timelineFilter === "feature" ? "default" : "ghost"}
+                    size="sm"
                     className="h-7 text-xs rounded-md px-2.5"
                     onClick={() => setTimelineFilter("feature")}
                   >
                     Funcionalidades
                   </Button>
-                  <Button 
-                    variant={timelineFilter === "security" ? "default" : "ghost"} 
-                    size="sm" 
+                  <Button
+                    variant={timelineFilter === "security" ? "default" : "ghost"}
+                    size="sm"
                     className="h-7 text-xs rounded-md px-2.5"
                     onClick={() => setTimelineFilter("security")}
                   >
                     Segurança
                   </Button>
-                  <Button 
-                    variant={timelineFilter === "fix" ? "default" : "ghost"} 
-                    size="sm" 
+                  <Button
+                    variant={timelineFilter === "fix" ? "default" : "ghost"}
+                    size="sm"
                     className="h-7 text-xs rounded-md px-2.5"
                     onClick={() => setTimelineFilter("fix")}
                   >
@@ -676,7 +676,7 @@ export default function Home() {
                     // Determinar cores com base no tipo
                     let typeColor = "bg-slate-100 text-slate-800 border-slate-200";
                     let iconBg = "bg-slate-100 text-slate-600";
-                    
+
                     if (item.type === "business") {
                       typeColor = "bg-blue-50 text-blue-700 border-blue-200";
                       iconBg = "bg-blue-600 text-white";
@@ -759,7 +759,7 @@ export default function Home() {
                       <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f1f5f9" />
                       <XAxis dataKey="data" stroke="#64748b" fontSize={12} tickLine={false} />
                       <YAxis stroke="#64748b" fontSize={12} tickLine={false} />
-                      <RechartsTooltip 
+                      <RechartsTooltip
                         contentStyle={{ backgroundColor: "#fff", border: "1px solid #e2e8f0", borderRadius: "8px" }}
                         labelStyle={{ fontWeight: "bold", color: "#0f172a" }}
                       />
@@ -777,10 +777,10 @@ export default function Home() {
 
           {/* ABA: VISÃO TÉCNICA */}
           <TabsContent value="technical" className="space-y-8 outline-none">
-            
+
             {/* Commits e Contribuidores */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              
+
               {/* Commits Recentes */}
               <Card className="lg:col-span-2 border-slate-200 shadow-sm bg-white card">
                 <CardHeader>
@@ -868,7 +868,7 @@ export default function Home() {
 
             {/* Atividade de Issues e PRs */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              
+
               {/* Issues Fechadas Recently */}
               <Card className="border-slate-200 shadow-sm bg-white card">
                 <CardHeader>
