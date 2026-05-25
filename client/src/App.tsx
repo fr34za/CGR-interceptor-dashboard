@@ -8,11 +8,15 @@ import Home from "./pages/Home";
 
 
 function Router() {
+  // Define o caminho base se estiver rodando no GitHub Pages, caso contrário usa a raiz
+  const base = window.location.hostname.includes("github.io")
+    ? "/CGR-interceptor-dashboard"
+    : "";
+
   return (
-    <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
+    <Switch base={base}>
+      <Route path="/" component={Home} />
+      <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -28,7 +32,7 @@ function App() {
     <ErrorBoundary>
       <ThemeProvider
         defaultTheme="light"
-        // switchable
+      // switchable
       >
         <TooltipProvider>
           <Toaster />
