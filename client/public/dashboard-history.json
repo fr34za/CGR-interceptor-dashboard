@@ -1,98 +1,22 @@
 {
   "snapshots": [
     {
-      "timestamp": "2026-05-10T12:00:00Z",
-      "date": "2026-05-10",
-      "metrics": {
-        "commits_total": 20,
-        "commits_by_author": {
-          "João Silva": 12,
-          "Maria Santos": 8
-        },
-        "issues_open": 5,
-        "issues_closed": 4,
-        "prs_open": 2,
-        "prs_merged": 5,
-        "releases_count": 1,
-        "contributors_count": 2,
-        "stars": 1,
-        "forks": 0
-      }
-    },
-    {
-      "timestamp": "2026-05-13T12:00:00Z",
-      "date": "2026-05-13",
-      "metrics": {
-        "commits_total": 28,
-        "commits_by_author": {
-          "João Silva": 16,
-          "Maria Santos": 12
-        },
-        "issues_open": 4,
-        "issues_closed": 7,
-        "prs_open": 1,
-        "prs_merged": 7,
-        "releases_count": 1,
-        "contributors_count": 2,
-        "stars": 2,
-        "forks": 0
-      }
-    },
-    {
-      "timestamp": "2026-05-16T12:00:00Z",
-      "date": "2026-05-16",
+      "timestamp": "2026-05-25T21:01:44.730987Z",
+      "date": "2026-05-25",
       "metrics": {
         "commits_total": 35,
         "commits_by_author": {
-          "João Silva": 20,
-          "Maria Santos": 15
+          "fr34za": 29,
+          "Felipe Freaza": 6
         },
-        "issues_open": 3,
-        "issues_closed": 10,
-        "prs_open": 2,
-        "prs_merged": 9,
-        "releases_count": 1,
-        "contributors_count": 2,
-        "stars": 3,
-        "forks": 1
-      }
-    },
-    {
-      "timestamp": "2026-05-20T16:15:00Z",
-      "date": "2026-05-20",
-      "metrics": {
-        "commits_total": 42,
-        "commits_by_author": {
-          "João Silva": 24,
-          "Maria Santos": 18
-        },
-        "issues_open": 2,
-        "issues_closed": 12,
-        "prs_open": 1,
-        "prs_merged": 11,
-        "releases_count": 2,
-        "contributors_count": 2,
-        "stars": 3,
-        "forks": 1
-      }
-    },
-    {
-      "timestamp": "2026-05-25T17:00:00Z",
-      "date": "2026-05-25",
-      "metrics": {
-        "commits_total": 48,
-        "commits_by_author": {
-          "João Silva": 28,
-          "Maria Santos": 20
-        },
-        "issues_open": 3,
-        "issues_closed": 15,
-        "prs_open": 1,
-        "prs_merged": 12,
-        "releases_count": 3,
-        "contributors_count": 2,
-        "stars": 4,
-        "forks": 1
+        "issues_open": 0,
+        "issues_closed": 4,
+        "prs_open": 0,
+        "prs_merged": 4,
+        "releases_count": 0,
+        "contributors_count": 1,
+        "stars": 0,
+        "forks": 0
       }
     }
   ]
