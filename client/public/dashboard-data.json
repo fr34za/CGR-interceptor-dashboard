@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T09:06:36.832629Z",
+  "generated_at": "2026-05-28T09:11:56.288514Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
