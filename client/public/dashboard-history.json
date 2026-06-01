@@ -20,18 +20,18 @@
       }
     },
     {
-      "timestamp": "2026-05-29T09:07:58.534168Z",
-      "date": "2026-05-29",
+      "timestamp": "2026-06-01T03:24:08.504523Z",
+      "date": "2026-06-01",
       "metrics": {
-        "commits_total": 36,
+        "commits_total": 40,
         "commits_by_author": {
-          "fr34za": 30,
-          "Felipe Freaza": 6
+          "Felipe Freaza": 7,
+          "fr34za": 33
         },
         "issues_open": 0,
-        "issues_closed": 4,
+        "issues_closed": 5,
         "prs_open": 0,
-        "prs_merged": 4,
+        "prs_merged": 5,
         "releases_count": 0,
         "contributors_count": 1,
         "stars": 0,

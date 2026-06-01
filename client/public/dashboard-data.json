@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T09:07:56.073866Z",
+  "generated_at": "2026-06-01T03:24:06.502046Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -10,12 +10,44 @@
     "open_issues": 0,
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
-    "updated_at": "2026-05-26T14:51:39Z",
-    "pushed_at": "2026-05-26T14:31:18Z",
+    "updated_at": "2026-06-01T03:23:58Z",
+    "pushed_at": "2026-06-01T03:23:53Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "5053ed3",
+        "author": "Felipe Freaza",
+        "email": "53410146+fr34za@users.noreply.github.com",
+        "date": "2026-06-01T03:23:53Z",
+        "message": "Merge pull request #5 from fr34za/dev",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/5053ed350fa00b76533a2849dbd85aef9b1834c1"
+      },
+      {
+        "sha": "a6244e4",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-06-01T03:18:02Z",
+        "message": "M5 connected to M6",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/a6244e470581c46598a5ff54bd66c9eb0e4b707b"
+      },
+      {
+        "sha": "a60e9e2",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-06-01T03:16:40Z",
+        "message": "M6: corpo do G-Click + fiação Main + pastas ano/mês robustas",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/a60e9e25b22b11a49fa88efa778b78ad1b722877"
+      },
+      {
+        "sha": "88e936f",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-06-01T03:15:45Z",
+        "message": "M6/M6.5: envio na thread + comprovante PDF",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/88e936f7fda7d25d29030a7b3d7cfbec7d07e1a7"
+      },
       {
         "sha": "522a133",
         "author": "fr34za",
@@ -306,12 +338,13 @@
       }
     ],
     "stats": {
-      "total": 36,
+      "total": 40,
       "by_author": {
-        "fr34za": 30,
-        "Felipe Freaza": 6
+        "Felipe Freaza": 7,
+        "fr34za": 33
       },
       "by_day": {
+        "2026-06-01": 4,
         "2026-05-26": 1,
         "2026-05-25": 15,
         "2026-05-24": 3,
@@ -322,9 +355,15 @@
   },
   "issues": {
     "open": 0,
-    "closed": 4,
-    "total": 4,
+    "closed": 5,
+    "total": 5,
     "recently_closed": [
+      {
+        "number": 5,
+        "title": "M5 connected to M6",
+        "closed_at": "2026-06-01T03:23:54Z",
+        "url": "https://github.com/fr34za/cgr-interceptor/pull/5"
+      },
       {
         "number": 4,
         "title": "ciclo M3+M4 fechado, tabela de clientes populada: 131/131 match",
@@ -353,9 +392,15 @@
   },
   "pull_requests": {
     "open": 0,
-    "merged": 4,
-    "total": 4,
+    "merged": 5,
+    "total": 5,
     "recently_merged": [
+      {
+        "number": 5,
+        "title": "M5 connected to M6",
+        "merged_at": "2026-06-01T03:23:54Z",
+        "url": "https://github.com/fr34za/cgr-interceptor/pull/5"
+      },
       {
         "number": 4,
         "title": "ciclo M3+M4 fechado, tabela de clientes populada: 131/131 match",
@@ -387,7 +432,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 36,
+      "contributions": 40,
       "profile_url": "https://github.com/fr34za"
     }
   ]
