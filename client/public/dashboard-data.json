@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T17:45:20.586161Z",
+  "generated_at": "2026-06-04T21:04:30.381827Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -11,11 +11,27 @@
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
     "updated_at": "2026-06-04T17:45:10Z",
-    "pushed_at": "2026-06-04T17:45:04Z",
+    "pushed_at": "2026-06-04T21:04:12Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "b486e5b",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-06-04T21:03:59Z",
+        "message": "fix(M6): endereçar reply a 1a msg externa (reply ignora opcoes.to)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/b486e5bc63c575c5f4c963e86855b8254addaa9a"
+      },
+      {
+        "sha": "52b493a",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-06-04T20:39:08Z",
+        "message": "fix(gate): mover gate de destinatario para pos-M5",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/52b493a82d56181fff625779dec4a00d5ac5676e"
+      },
       {
         "sha": "2266b2d",
         "author": "fr34za",
@@ -490,13 +506,13 @@
       }
     ],
     "stats": {
-      "total": 59,
+      "total": 61,
       "by_author": {
-        "fr34za": 51,
+        "fr34za": 53,
         "Felipe Freaza": 8
       },
       "by_day": {
-        "2026-06-04": 1,
+        "2026-06-04": 3,
         "2026-06-03": 5,
         "2026-06-02": 1,
         "2026-06-01": 16,
@@ -587,7 +603,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 59,
+      "contributions": 61,
       "profile_url": "https://github.com/fr34za"
     }
   ]
