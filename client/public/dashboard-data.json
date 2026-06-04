@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T09:18:35.874296Z",
+  "generated_at": "2026-06-04T17:45:20.586161Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -10,12 +10,28 @@
     "open_issues": 0,
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
-    "updated_at": "2026-06-03T13:07:17Z",
-    "pushed_at": "2026-06-03T13:05:28Z",
+    "updated_at": "2026-06-04T17:45:10Z",
+    "pushed_at": "2026-06-04T17:45:04Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "2266b2d",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-06-04T17:41:17Z",
+        "message": "M6/M7: To/Cc so externos (filtrarNaoCGR, evita loop no grupo); cliente no Cco condicional",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/2266b2d70df62b57a2efd5ae82a57d17205b9bfb"
+      },
+      {
+        "sha": "9fe21ae",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-06-03T14:53:43Z",
+        "message": "Remove dependencia de Session (escopo userinfo.email nao autorizado)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/9fe21aed276f8a03cd5b9f1accd03f9e2e8cc02e"
+      },
       {
         "sha": "f240aa4",
         "author": "fr34za",
@@ -474,13 +490,14 @@
       }
     ],
     "stats": {
-      "total": 57,
+      "total": 59,
       "by_author": {
-        "fr34za": 49,
+        "fr34za": 51,
         "Felipe Freaza": 8
       },
       "by_day": {
-        "2026-06-03": 4,
+        "2026-06-04": 1,
+        "2026-06-03": 5,
         "2026-06-02": 1,
         "2026-06-01": 16,
         "2026-05-26": 1,
@@ -570,7 +587,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 57,
+      "contributions": 59,
       "profile_url": "https://github.com/fr34za"
     }
   ]
