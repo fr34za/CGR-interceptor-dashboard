@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T09:29:24.098712Z",
+  "generated_at": "2026-06-18T16:43:52.721315Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -10,12 +10,36 @@
     "open_issues": 0,
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
-    "updated_at": "2026-06-10T20:44:37Z",
-    "pushed_at": "2026-06-10T20:43:20Z",
+    "updated_at": "2026-06-18T16:43:44Z",
+    "pushed_at": "2026-06-18T16:43:39Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "14fe620",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-06-18T16:42:59Z",
+        "message": "Idempotência fecha loop de recaptura ramo DESCONHECIDO",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/14fe620aee16c7031fd1bbe13912cf2a88ab67ac"
+      },
+      {
+        "sha": "50bc6e2",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-06-18T16:14:23Z",
+        "message": "M5(clienteGate): passe primário por remetente + email_cliente (auto-envio)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/50bc6e2ab867bebeb2733db91f3a05feb508c4ab"
+      },
+      {
+        "sha": "f5e4763",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-06-16T16:24:42Z",
+        "message": "fix(m5): casa assunto em qualquer msg da thread + resolução por identidade acima do assunto",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/f5e4763d8c0fa878d3d6b313b089bcea12cf4950"
+      },
       {
         "sha": "ddfb1f6",
         "author": "fr34za",
@@ -535,31 +559,17 @@
         "date": "2026-05-22T00:44:32Z",
         "message": "added debugAttachments & RawPayload",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/211812b4bf7b817551fab94f934ae807058592a1"
-      },
-      {
-        "sha": "88359b0",
-        "author": "Felipe Freaza",
-        "email": "53410146+fr34za@users.noreply.github.com",
-        "date": "2026-05-19T14:50:49Z",
-        "message": "Update README.md",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/88359b0303e4cffb65e60bda0f4ae86f84bad393"
-      },
-      {
-        "sha": "15b98e4",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-19T14:41:26Z",
-        "message": "feat: estrutura inicial do interceptor (M2/M3/M8 feitos, M4-M7 stubs)",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/15b98e40ee56a48ec0ee5f8da997b3f6ca470e32"
       }
     ],
     "stats": {
-      "total": 67,
+      "total": 68,
       "by_author": {
-        "fr34za": 59,
-        "Felipe Freaza": 8
+        "fr34za": 61,
+        "Felipe Freaza": 7
       },
       "by_day": {
+        "2026-06-18": 2,
+        "2026-06-16": 1,
         "2026-06-10": 2,
         "2026-06-06": 1,
         "2026-06-05": 3,
@@ -570,8 +580,7 @@
         "2026-05-26": 1,
         "2026-05-25": 15,
         "2026-05-24": 3,
-        "2026-05-22": 15,
-        "2026-05-19": 2
+        "2026-05-22": 15
       }
     }
   },
@@ -654,7 +663,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 67,
+      "contributions": 70,
       "profile_url": "https://github.com/fr34za"
     }
   ]
