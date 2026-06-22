@@ -20,13 +20,13 @@
       }
     },
     {
-      "timestamp": "2026-06-19T09:34:09.479389Z",
-      "date": "2026-06-19",
+      "timestamp": "2026-06-22T10:00:22.228997Z",
+      "date": "2026-06-22",
       "metrics": {
-        "commits_total": 70,
+        "commits_total": 55,
         "commits_by_author": {
-          "fr34za": 63,
-          "Felipe Freaza": 7
+          "fr34za": 51,
+          "Felipe Freaza": 4
         },
         "issues_open": 0,
         "issues_closed": 5,
