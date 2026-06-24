@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T09:05:16.931604Z",
+  "generated_at": "2026-06-24T09:04:19.792691Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -415,53 +415,13 @@
         "date": "2026-05-25T15:46:50Z",
         "message": "schema v1.3 + auditorias",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/d33e7e843bfeda9945a7e84b2575a3c7937f570e"
-      },
-      {
-        "sha": "f3ff4d4",
-        "author": "Felipe Freaza",
-        "email": "53410146+fr34za@users.noreply.github.com",
-        "date": "2026-05-25T01:39:57Z",
-        "message": "Merge branch 'main' into dev",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/f3ff4d43f162e890a7c2ec02cac14ca89005dc1a"
-      },
-      {
-        "sha": "7209a91",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T01:30:49Z",
-        "message": "tabela de clientes populada: 131/131 match exato",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/7209a91fe1828f7b9f8a4f1424ccbf735b7e549b"
-      },
-      {
-        "sha": "43c1fd2",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-24T19:32:59Z",
-        "message": "tabela clientes v1.2",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/43c1fd2d17b0364e72c3d4a571027855bd90d72c"
-      },
-      {
-        "sha": "f3853bd",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-24T18:38:51Z",
-        "message": "obterConfig()",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/f3853bdc9ac301802db60078f06459353af1c1ca"
-      },
-      {
-        "sha": "2f430ce",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-24T18:15:01Z",
-        "message": "table dry run match",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/2f430ceafd315ff2cf709c178be4f69dbb109a60"
       }
     ],
     "stats": {
-      "total": 55,
+      "total": 50,
       "by_author": {
-        "fr34za": 51,
-        "Felipe Freaza": 4
+        "fr34za": 47,
+        "Felipe Freaza": 3
       },
       "by_day": {
         "2026-06-18": 4,
@@ -474,8 +434,7 @@
         "2026-06-02": 1,
         "2026-06-01": 16,
         "2026-05-26": 1,
-        "2026-05-25": 15,
-        "2026-05-24": 3
+        "2026-05-25": 13
       }
     }
   },
