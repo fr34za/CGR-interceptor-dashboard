@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T09:04:19.792691Z",
+  "generated_at": "2026-06-25T09:03:50.601131Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -311,117 +311,13 @@
         "date": "2026-05-26T14:30:12Z",
         "message": "M5: busca thread via subject + janela temporal",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/522a133f2b373189b0052c82e3d32b6cf9034fbe"
-      },
-      {
-        "sha": "94686ed",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T21:00:45Z",
-        "message": "dashboard-data.json & dashboard-history.json",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/94686edcab45b92c79e2cdbcec6f5fe5682822db"
-      },
-      {
-        "sha": "97eb0e5",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T20:28:48Z",
-        "message": "url concatenation",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/97eb0e5eacb2ab6bd635864e57b6c466fa2d8677"
-      },
-      {
-        "sha": "810b5f4",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T19:57:13Z",
-        "message": "secrets update",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/810b5f426b6f616a7561665eac445817e7f4001e"
-      },
-      {
-        "sha": "0581342",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T19:52:19Z",
-        "message": "yaml permissions",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/05813428edb5501ac5ac20506e5e8f4fea528b72"
-      },
-      {
-        "sha": "6cbb94e",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T19:47:11Z",
-        "message": "fix: corrige variavel do repositorio do dashboard",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/6cbb94eb97ed2145d3803f37e21a47d8c2a80fe8"
-      },
-      {
-        "sha": "09b045a",
-        "author": "Felipe Freaza",
-        "email": "53410146+fr34za@users.noreply.github.com",
-        "date": "2026-05-25T19:22:40Z",
-        "message": "Merge pull request #4 ",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/09b045a537acfdf5b4b9b3dedfcdf36e645db156"
-      },
-      {
-        "sha": "c68339e",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T19:16:06Z",
-        "message": "dashboard metrics collection auto",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/c68339e24a16ef5ecee56f75f9df176775ce962a"
-      },
-      {
-        "sha": "a934aa8",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T19:02:41Z",
-        "message": "dashboard v1.0",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/a934aa8a0a0d86ad153ee5c0ce5014c42a405b24"
-      },
-      {
-        "sha": "c05e3bb",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T18:17:55Z",
-        "message": "Merge remote branch 'origin/dev' into M4, keeping local versions",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/c05e3bbb062e7cb59833f0e9f0ce1ae8aa85fa96"
-      },
-      {
-        "sha": "df8f3ca",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T18:08:45Z",
-        "message": "Merge remote branch 'origin/dev' into M4",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/df8f3ca1f104df1dd1c65154f4459d1647a4784c"
-      },
-      {
-        "sha": "d6fc513",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T18:04:35Z",
-        "message": "suporte a .docx via parsing, filtra temporarios ~$",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/d6fc513b3b5cb29cccfc94c3825985d625d3731c"
-      },
-      {
-        "sha": "263f4ec",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T17:40:24Z",
-        "message": "fix unzip force contentType application/zip > blob",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/263f4ecd2200c8dc4111b00b64b8e6f3ecf38c58"
-      },
-      {
-        "sha": "d33e7e8",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-05-25T15:46:50Z",
-        "message": "schema v1.3 + auditorias",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/d33e7e843bfeda9945a7e84b2575a3c7937f570e"
       }
     ],
     "stats": {
-      "total": 50,
+      "total": 37,
       "by_author": {
-        "fr34za": 47,
-        "Felipe Freaza": 3
+        "fr34za": 35,
+        "Felipe Freaza": 2
       },
       "by_day": {
         "2026-06-18": 4,
@@ -433,8 +329,7 @@
         "2026-06-03": 5,
         "2026-06-02": 1,
         "2026-06-01": 16,
-        "2026-05-26": 1,
-        "2026-05-25": 13
+        "2026-05-26": 1
       }
     }
   },
