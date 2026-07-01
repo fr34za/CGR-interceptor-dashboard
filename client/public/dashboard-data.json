@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T03:19:03.252393Z",
+  "generated_at": "2026-07-01T09:06:53.864998Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -279,21 +279,13 @@
         "date": "2026-06-01T10:49:41Z",
         "message": "M6: anexa NF + demais do disparo + CND/QSA; _m6_log só console",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/d2790e751d8c234e0fcff76c9e06f24da5a0a4b5"
-      },
-      {
-        "sha": "5053ed3",
-        "author": "Felipe Freaza",
-        "email": "53410146+fr34za@users.noreply.github.com",
-        "date": "2026-06-01T03:23:53Z",
-        "message": "Merge pull request #5 from fr34za/dev",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/5053ed350fa00b76533a2849dbd85aef9b1834c1"
       }
     ],
     "stats": {
-      "total": 34,
+      "total": 33,
       "by_author": {
         "fr34za": 32,
-        "Felipe Freaza": 2
+        "Felipe Freaza": 1
       },
       "by_day": {
         "2026-07-01": 1,
@@ -305,7 +297,7 @@
         "2026-06-04": 3,
         "2026-06-03": 5,
         "2026-06-02": 1,
-        "2026-06-01": 13
+        "2026-06-01": 12
       }
     }
   },
