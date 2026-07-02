@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T09:02:35.349667Z",
+  "generated_at": "2026-07-02T16:58:06.622657Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -11,11 +11,35 @@
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
     "updated_at": "2026-07-01T03:18:54Z",
-    "pushed_at": "2026-07-01T03:18:50Z",
+    "pushed_at": "2026-07-02T16:57:53Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "2f1de1d",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-02T16:57:38Z",
+        "message": "feat(interceptor): família J (documento complementar pós-NF) + merge com rota tomador curado",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/2f1de1dd03ca1e5ef556cc22fd51404ed210dd0e"
+      },
+      {
+        "sha": "acca107",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-01T14:58:42Z",
+        "message": "M5: fallback por grupo-intake p/ pedido do tomador (assunto generico)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/acca1074e076eb643d70c7b8a0360aa1db8adaf4"
+      },
+      {
+        "sha": "cdd6315",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-01T14:02:22Z",
+        "message": "M5: clienteGate confirma auto-envio por NOME do remetente (>=2 tokens)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/cdd6315a3771a7c61db9d6081053db521e15a1f4"
+      },
       {
         "sha": "9b0d8e5",
         "author": "fr34za",
@@ -186,12 +210,13 @@
       }
     ],
     "stats": {
-      "total": 21,
+      "total": 24,
       "by_author": {
-        "fr34za": 21
+        "fr34za": 24
       },
       "by_day": {
-        "2026-07-01": 1,
+        "2026-07-02": 1,
+        "2026-07-01": 3,
         "2026-06-18": 4,
         "2026-06-16": 1,
         "2026-06-10": 2,
@@ -282,7 +307,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 73,
+      "contributions": 76,
       "profile_url": "https://github.com/fr34za"
     }
   ]
