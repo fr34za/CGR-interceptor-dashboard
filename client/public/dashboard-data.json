@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T09:06:53.864998Z",
+  "generated_at": "2026-07-02T09:02:35.349667Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -183,109 +183,12 @@
         "date": "2026-06-02T20:36:21Z",
         "message": "Envio: salvaguarda TEST_TO_OVERRIDE força destino único em teste",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/e4a18cffd621e79bcb358ffc0e70fe5c68057089"
-      },
-      {
-        "sha": "d2a0e7d",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T20:10:44Z",
-        "message": "Fix syntax error in ResetTeste.gs comment opener",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/d2a0e7d295b571e2b36fadd903d3059f7799fa0f"
-      },
-      {
-        "sha": "3b00d56",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T20:08:54Z",
-        "message": "wrapper _testeAgora()",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/3b00d565701138583af32ded23fe6a7e9769e7a0"
-      },
-      {
-        "sha": "4bb6971",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T19:36:37Z",
-        "message": "fix(M6.5): comprovante na pasta exata da NF (folder ID do M4)",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/4bb697173b4353aae110f043623af68431abbbc0"
-      },
-      {
-        "sha": "ad2c486",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T17:09:59Z",
-        "message": "README update: estado M1-M8 em shadow",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/ad2c4867b691af73da7e9089feb32bbce98b2679"
-      },
-      {
-        "sha": "bb34b64",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T17:07:32Z",
-        "message": "Merge remote-tracking branch 'origin/main'",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/bb34b642ea22d3e4e8a7d9e8148c1733c19c2c6d"
-      },
-      {
-        "sha": "257030a",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T17:07:11Z",
-        "message": "Merge remote-tracking branch 'origin/main'",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/257030a1d8fc1ef163e588b1608fe8866217b778"
-      },
-      {
-        "sha": "423a892",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T16:48:53Z",
-        "message": "M7: e-mail novo aos tomadores quando não há thread original",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/423a892d9f5fe4874075c03d40ef5f54f5a6ce98"
-      },
-      {
-        "sha": "0110785",
-        "author": "Felipe Freaza",
-        "email": "53410146+fr34za@users.noreply.github.com",
-        "date": "2026-06-01T17:03:05Z",
-        "message": "Update README.md",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/01107853a6c94a8605d2b8ff502c985641eb0b2d"
-      },
-      {
-        "sha": "572525a",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T16:48:53Z",
-        "message": "M7: e-mail novo aos tomadores quando não há thread original",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/572525ad767d0372ad242a44f1b6b5026fbdbf50"
-      },
-      {
-        "sha": "26436dd",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T16:25:35Z",
-        "message": "M6: anexa NF + demais do disparo + CND/QSA; _m6_log só console",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/26436ddd76a43a4d2a608149fcd5f1d584b3a965"
-      },
-      {
-        "sha": "2aed1f5",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T10:50:00Z",
-        "message": "G-click API for matching thread",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/2aed1f5675cee86748ddc5131573226d133ba7bf"
-      },
-      {
-        "sha": "d2790e7",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-01T10:49:41Z",
-        "message": "M6: anexa NF + demais do disparo + CND/QSA; _m6_log só console",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/d2790e751d8c234e0fcff76c9e06f24da5a0a4b5"
       }
     ],
     "stats": {
-      "total": 33,
+      "total": 21,
       "by_author": {
-        "fr34za": 32,
-        "Felipe Freaza": 1
+        "fr34za": 21
       },
       "by_day": {
         "2026-07-01": 1,
@@ -296,8 +199,7 @@
         "2026-06-05": 3,
         "2026-06-04": 3,
         "2026-06-03": 5,
-        "2026-06-02": 1,
-        "2026-06-01": 12
+        "2026-06-02": 1
       }
     }
   },
