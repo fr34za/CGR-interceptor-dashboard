@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T16:58:06.622657Z",
+  "generated_at": "2026-07-03T10:28:06.640963Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -10,7 +10,7 @@
     "open_issues": 0,
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
-    "updated_at": "2026-07-01T03:18:54Z",
+    "updated_at": "2026-07-02T16:58:12Z",
     "pushed_at": "2026-07-02T16:57:53Z",
     "is_private": true
   },
@@ -175,44 +175,12 @@
         "date": "2026-06-03T13:04:41Z",
         "message": "GClickApi: obterTarefaPorNumero (objeto cru); obterDataCriacaoTarefa reusa",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/f240aa456cc53eb291be3d4d59e86e40d441d405"
-      },
-      {
-        "sha": "0f990e3",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-03T02:32:19Z",
-        "message": "clean code review",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/0f990e3a79729e24f43f4f07cbbc7a7a22b33436"
-      },
-      {
-        "sha": "bb38274",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-03T02:29:53Z",
-        "message": "Main: log qtdAnexos usa contagem final do Envio (NF+CND+QSA)",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/bb382740819e5f05a36595bc124066c71deb8d3e"
-      },
-      {
-        "sha": "7f21030",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-03T00:50:29Z",
-        "message": "Download: troca gemini-2.0-flash (descontinuado) por gemini-2.5-flash",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/7f21030ad7746af8f0078f9ee07dacff0c28544b"
-      },
-      {
-        "sha": "e4a18cf",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-02T20:36:21Z",
-        "message": "Envio: salvaguarda TEST_TO_OVERRIDE força destino único em teste",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/e4a18cffd621e79bcb358ffc0e70fe5c68057089"
       }
     ],
     "stats": {
-      "total": 24,
+      "total": 20,
       "by_author": {
-        "fr34za": 24
+        "fr34za": 20
       },
       "by_day": {
         "2026-07-02": 1,
@@ -223,8 +191,7 @@
         "2026-06-06": 1,
         "2026-06-05": 3,
         "2026-06-04": 3,
-        "2026-06-03": 5,
-        "2026-06-02": 1
+        "2026-06-03": 2
       }
     }
   },
