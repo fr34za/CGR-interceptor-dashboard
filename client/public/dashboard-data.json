@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T10:28:06.640963Z",
+  "generated_at": "2026-07-05T23:34:52.507474Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -10,12 +10,36 @@
     "open_issues": 0,
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
-    "updated_at": "2026-07-02T16:58:12Z",
-    "pushed_at": "2026-07-02T16:57:53Z",
+    "updated_at": "2026-07-05T23:34:41Z",
+    "pushed_at": "2026-07-05T23:34:37Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "ae6f99d",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-05T23:34:16Z",
+        "message": "TabelaTomadores: leitor expoe perfil fiscal (endereco/IM/IBGE) do schema v2",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/ae6f99d3a2a57e437a0d8bcd469237fb86c7d583"
+      },
+      {
+        "sha": "86f2b6b",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-05T23:17:52Z",
+        "message": "PopularPastasCliente: (re)popula pasta_cliente/nf/doc via Drive, dry-run + commit so-vazio",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/86f2b6b4daf5fecee3b448a24c07d22bb85053f7"
+      },
+      {
+        "sha": "7d61db9",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-02T20:09:47Z",
+        "message": "TabelaTomadores: scanner Drive+Gmail de sugestoes (cnpj/emails) em aba staging",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/7d61db92e7fa05a77f50b53cb51d9f4eeb5af77c"
+      },
       {
         "sha": "2f1de1d",
         "author": "fr34za",
@@ -111,87 +135,21 @@
         "date": "2026-06-06T21:23:37Z",
         "message": "feat: melhorias no interceptor e remocao completa de emojis",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/23000c6a1b7edb7915d0fa5034696b7667dedf36"
-      },
-      {
-        "sha": "69726cd",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-05T04:59:49Z",
-        "message": "chore(trava): DATA_CORTE 2026/06/04 -> 2026/06/05 (go-live)",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/69726cd27cdf68141c4970447b3e130ced492420"
-      },
-      {
-        "sha": "4242935",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-05T02:35:26Z",
-        "message": "fix(captura): from:gclick.com.br, nao from:amazonses",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/424293546d54217bd09b799a3b9a26359492a93e"
-      },
-      {
-        "sha": "cd0b4b7",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-05T02:17:47Z",
-        "message": "feat(trava): data-piso (DATA_CORTE) no processarInterceptor",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/cd0b4b7fd958aceb750992ca44b245dbf3343fc0"
-      },
-      {
-        "sha": "b486e5b",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-04T21:03:59Z",
-        "message": "fix(M6): endereçar reply a 1a msg externa (reply ignora opcoes.to)",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/b486e5bc63c575c5f4c963e86855b8254addaa9a"
-      },
-      {
-        "sha": "52b493a",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-04T20:39:08Z",
-        "message": "fix(gate): mover gate de destinatario para pos-M5",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/52b493a82d56181fff625779dec4a00d5ac5676e"
-      },
-      {
-        "sha": "2266b2d",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-04T17:41:17Z",
-        "message": "M6/M7: To/Cc so externos (filtrarNaoCGR, evita loop no grupo); cliente no Cco condicional",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/2266b2d70df62b57a2efd5ae82a57d17205b9bfb"
-      },
-      {
-        "sha": "9fe21ae",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-03T14:53:43Z",
-        "message": "Remove dependencia de Session (escopo userinfo.email nao autorizado)",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/9fe21aed276f8a03cd5b9f1accd03f9e2e8cc02e"
-      },
-      {
-        "sha": "f240aa4",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-03T13:04:41Z",
-        "message": "GClickApi: obterTarefaPorNumero (objeto cru); obterDataCriacaoTarefa reusa",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/f240aa456cc53eb291be3d4d59e86e40d441d405"
       }
     ],
     "stats": {
-      "total": 20,
+      "total": 15,
       "by_author": {
-        "fr34za": 20
+        "fr34za": 15
       },
       "by_day": {
-        "2026-07-02": 1,
+        "2026-07-05": 2,
+        "2026-07-02": 2,
         "2026-07-01": 3,
         "2026-06-18": 4,
         "2026-06-16": 1,
         "2026-06-10": 2,
-        "2026-06-06": 1,
-        "2026-06-05": 3,
-        "2026-06-04": 3,
-        "2026-06-03": 2
+        "2026-06-06": 1
       }
     }
   },
@@ -274,7 +232,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 76,
+      "contributions": 79,
       "profile_url": "https://github.com/fr34za"
     }
   ]
