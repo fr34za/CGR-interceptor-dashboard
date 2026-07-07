@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T11:57:04.982498Z",
+  "generated_at": "2026-07-07T10:48:27.926010Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -135,20 +135,12 @@
         "date": "2026-06-10T17:10:34Z",
         "message": "fix(interceptor): M4 identifica a NFS-e real no disparo; + alterações em M5, idempotência e diagnóstico",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/543d80aeab6f8253f940edd9e54168036598a968"
-      },
-      {
-        "sha": "23000c6",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-06T21:23:37Z",
-        "message": "feat: melhorias no interceptor e remocao completa de emojis",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/23000c6a1b7edb7915d0fa5034696b7667dedf36"
       }
     ],
     "stats": {
-      "total": 16,
+      "total": 15,
       "by_author": {
-        "fr34za": 16
+        "fr34za": 15
       },
       "by_day": {
         "2026-07-06": 1,
@@ -157,8 +149,7 @@
         "2026-07-01": 3,
         "2026-06-18": 4,
         "2026-06-16": 1,
-        "2026-06-10": 2,
-        "2026-06-06": 1
+        "2026-06-10": 2
       }
     }
   },
