@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T20:05:03.692371Z",
+  "generated_at": "2026-07-07T21:39:05.787249Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -10,12 +10,20 @@
     "open_issues": 0,
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
-    "updated_at": "2026-07-07T20:04:55Z",
-    "pushed_at": "2026-07-07T20:04:48Z",
+    "updated_at": "2026-07-07T21:38:55Z",
+    "pushed_at": "2026-07-07T21:38:50Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "e27050e",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-07T21:38:39Z",
+        "message": "fix: concorrencia real do processarInterceptor — tryLock com espera (era 0) + auditarTriggers/dedupTriggersInterceptor (trigger duplicado era a causa do 8465 processado 2x)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/e27050e582cc3dd6cf44815f07d9b61d5b01579c"
+      },
       {
         "sha": "ad60bb9",
         "author": "fr34za",
@@ -178,12 +186,12 @@
       }
     ],
     "stats": {
-      "total": 20,
+      "total": 21,
       "by_author": {
-        "fr34za": 20
+        "fr34za": 21
       },
       "by_day": {
-        "2026-07-07": 5,
+        "2026-07-07": 6,
         "2026-07-06": 1,
         "2026-07-05": 2,
         "2026-07-02": 2,
@@ -273,7 +281,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 85,
+      "contributions": 86,
       "profile_url": "https://github.com/fr34za"
     }
   ]
