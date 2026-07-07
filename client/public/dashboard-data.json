@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T18:25:30.469126Z",
+  "generated_at": "2026-07-07T19:00:28.187189Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -11,11 +11,19 @@
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
     "updated_at": "2026-07-07T18:25:19Z",
-    "pushed_at": "2026-07-07T18:25:13Z",
+    "pushed_at": "2026-07-07T19:00:15Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "67c8b40",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-07T19:00:06Z",
+        "message": "fix: GClick /tarefas 500 — servidor passou a rejeitar size=200 (500 em vez de 400); size=50 paginado (GCLICK_PAGE_SIZE) + instrumentacao _gci_fetch_ com retry 5xx",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/67c8b4017baa34bfe51859f72fe1d68aa6c144ba"
+      },
       {
         "sha": "21a3c5f",
         "author": "fr34za",
@@ -146,12 +154,12 @@
       }
     ],
     "stats": {
-      "total": 16,
+      "total": 17,
       "by_author": {
-        "fr34za": 16
+        "fr34za": 17
       },
       "by_day": {
-        "2026-07-07": 1,
+        "2026-07-07": 2,
         "2026-07-06": 1,
         "2026-07-05": 2,
         "2026-07-02": 2,
@@ -241,7 +249,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 81,
+      "contributions": 82,
       "profile_url": "https://github.com/fr34za"
     }
   ]
