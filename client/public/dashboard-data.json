@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T19:00:28.187189Z",
+  "generated_at": "2026-07-07T20:05:03.692371Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -10,12 +10,36 @@
     "open_issues": 0,
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
-    "updated_at": "2026-07-07T18:25:19Z",
-    "pushed_at": "2026-07-07T19:00:15Z",
+    "updated_at": "2026-07-07T20:04:55Z",
+    "pushed_at": "2026-07-07T20:04:48Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "ad60bb9",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-07T20:04:29Z",
+        "message": "chore: Reprocesso R2 — reativa os 15 residuais que voltaram a REVISAR pos-R1 (exclui 8359/8411/8474 enviados e 8469/8493 bloqueados)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/ad60bb95d8cb1f910de9ef2ff0dc85cc7290ff7c"
+      },
+      {
+        "sha": "d389bf3",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-07T19:55:59Z",
+        "message": "fix: LockService no processarInterceptor (previne envio duplo por ciclos sobrepostos, caso NF16/8411) + busca dia-a-dia no /tarefas (contorna registro toxico ~06-07/07)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/d389bf34864ccbd8ed5c5a1f222e25459dbdcf95"
+      },
+      {
+        "sha": "3cb0b0c",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-07T19:11:32Z",
+        "message": "feat: reativarLote20260707 + motor reativarLote_ no Reprocesso — reprocesso em lote dos REVISAR pos-fix da API (size=50)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/3cb0b0ccc88765dbfcb8782a996ed399e1a411f4"
+      },
       {
         "sha": "67c8b40",
         "author": "fr34za",
@@ -154,12 +178,12 @@
       }
     ],
     "stats": {
-      "total": 17,
+      "total": 20,
       "by_author": {
-        "fr34za": 17
+        "fr34za": 20
       },
       "by_day": {
-        "2026-07-07": 2,
+        "2026-07-07": 5,
         "2026-07-06": 1,
         "2026-07-05": 2,
         "2026-07-02": 2,
@@ -249,7 +273,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 82,
+      "contributions": 85,
       "profile_url": "https://github.com/fr34za"
     }
   ]
