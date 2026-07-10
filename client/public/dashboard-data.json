@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T10:48:17.772661Z",
+  "generated_at": "2026-07-10T08:30:23.582475Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -11,11 +11,27 @@
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
     "updated_at": "2026-07-08T02:32:01Z",
-    "pushed_at": "2026-07-08T02:31:57Z",
+    "pushed_at": "2026-07-10T08:30:04Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "c0d7225",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-10T08:29:54Z",
+        "message": "feat: PopularTabela estendido — desce nas subpastas por universidade (CONT.-INNOVAT 2 niveis, coexiste com raiz plana), casa tambem por responsavel_legal (unico, >=2 tokens), preenche os 3 IDs (cliente/doc/nf, so celula vazia) + tipo 'completar' via ID existente",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/c0d7225096497c5917b41b69b310037be4e9cdce"
+      },
+      {
+        "sha": "d046f68",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-08T16:33:30Z",
+        "message": "fix: TRAVA VALOR soma parcelas — NF pode ser o total de plantoes discriminados no corpo (caso Anna Clara/IFF R.000=soma de 10); bloqueio de valor errado preservado",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/d046f68306e66be1d83d27bceb6fe7f998c1b086"
+      },
       {
         "sha": "f83a176",
         "author": "fr34za",
@@ -194,12 +210,13 @@
       }
     ],
     "stats": {
-      "total": 22,
+      "total": 24,
       "by_author": {
-        "fr34za": 22
+        "fr34za": 24
       },
       "by_day": {
-        "2026-07-08": 1,
+        "2026-07-10": 1,
+        "2026-07-08": 2,
         "2026-07-07": 6,
         "2026-07-06": 1,
         "2026-07-05": 2,
@@ -290,7 +307,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 87,
+      "contributions": 89,
       "profile_url": "https://github.com/fr34za"
     }
   ]
