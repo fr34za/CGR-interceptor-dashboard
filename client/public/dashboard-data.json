@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T10:45:55.998668Z",
+  "generated_at": "2026-07-11T00:01:32.857472Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -11,11 +11,67 @@
     "language": "JavaScript",
     "created_at": "2026-05-19T14:39:08Z",
     "updated_at": "2026-07-10T08:30:46Z",
-    "pushed_at": "2026-07-10T08:30:04Z",
+    "pushed_at": "2026-07-11T00:01:22Z",
     "is_private": true
   },
   "commits": {
     "recent": [
+      {
+        "sha": "8ebf77a",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-11T00:00:49Z",
+        "message": "feat(tabela): PopularDadosBancarios.gs — cod_banco/nome_banco/agencia/conta/chave_pix",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/8ebf77ad23de2a2b965c29e647e8a423a1df17a8"
+      },
+      {
+        "sha": "e5fff32",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-10T21:07:06Z",
+        "message": "reprocesso: motor dirigido por nº de tarefa que contorna o teto do M1",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/e5fff3297c476b22d27dc8cd09586f33feaf0570"
+      },
+      {
+        "sha": "40d8337",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-10T20:15:35Z",
+        "message": "feat(onboarding): PopularOnboarding.gs — cria linhas na tabela a partir das pastas orfas",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/40d833792d99ec3d47c4792241c2cb43692ff442"
+      },
+      {
+        "sha": "1172016",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-10T19:22:08Z",
+        "message": "fix(popular-tabela): subpastas 02/03 (BUILD E)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/11720167321901e39c660cea056d181bca62a3e5"
+      },
+      {
+        "sha": "1c43fbb",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-10T18:50:53Z",
+        "message": "fix(popular-tabela): denylist com normalizacao propria (BUILD D)",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/1c43fbb7b0d7cfa65bd9b487fee978baed0cead0"
+      },
+      {
+        "sha": "b89354e",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-10T15:55:43Z",
+        "message": "fix: denylist de sistema tambem nas filhas das universidades — pastas admin dentro de '9. OUTROS' (0-NOVO CLIENTE, 2-POPs, MIGRACAO FORMADOS) nao vazam mais para orfas",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/b89354e6fd3699029d23447b3c40c9a9837d2e49"
+      },
+      {
+        "sha": "0862527",
+        "author": "fr34za",
+        "email": "felipefreaza@gmail.com",
+        "date": "2026-07-10T09:05:50Z",
+        "message": "fix: relatorio de orfas — reivindica pasta de linhas ja resolvidas (por pasta_cliente_id) nos ramos 'ja completo' e 'completar'; clientes ativos deixam de aparecer como orfaos, contagem passa a refletir so pastas sem linha na tabela",
+        "url": "https://github.com/fr34za/cgr-interceptor/commit/086252702ff35634d2b3c2f4af5ec62f07acc2f4"
+      },
       {
         "sha": "c0d7225",
         "author": "fr34za",
@@ -191,31 +247,16 @@
         "date": "2026-06-16T16:24:42Z",
         "message": "fix(m5): casa assunto em qualquer msg da thread + resolução por identidade acima do assunto",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/f5e4763d8c0fa878d3d6b313b089bcea12cf4950"
-      },
-      {
-        "sha": "ddfb1f6",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-10T20:42:48Z",
-        "message": "fix(M5): exclui disparos do G-Click da busca e estende leitura de PDF ao guard",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/ddfb1f69d6177858b282af59bb298511d8a4477c"
-      },
-      {
-        "sha": "543d80a",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-10T17:10:34Z",
-        "message": "fix(interceptor): M4 identifica a NFS-e real no disparo; + alterações em M5, idempotência e diagnóstico",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/543d80aeab6f8253f940edd9e54168036598a968"
       }
     ],
     "stats": {
-      "total": 24,
+      "total": 29,
       "by_author": {
-        "fr34za": 24
+        "fr34za": 29
       },
       "by_day": {
-        "2026-07-10": 1,
+        "2026-07-11": 1,
+        "2026-07-10": 7,
         "2026-07-08": 2,
         "2026-07-07": 6,
         "2026-07-06": 1,
@@ -223,8 +264,7 @@
         "2026-07-02": 2,
         "2026-07-01": 3,
         "2026-06-18": 4,
-        "2026-06-16": 1,
-        "2026-06-10": 2
+        "2026-06-16": 1
       }
     }
   },
@@ -307,7 +347,7 @@
     {
       "name": "fr34za",
       "avatar_url": "https://avatars.githubusercontent.com/u/53410146?v=4",
-      "contributions": 89,
+      "contributions": 96,
       "profile_url": "https://github.com/fr34za"
     }
   ]
