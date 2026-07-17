@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T09:59:54.845916Z",
+  "generated_at": "2026-07-17T09:49:49.791874Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -239,20 +239,12 @@
         "date": "2026-06-18T16:14:23Z",
         "message": "M5(clienteGate): passe primário por remetente + email_cliente (auto-envio)",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/50bc6e2ab867bebeb2733db91f3a05feb508c4ab"
-      },
-      {
-        "sha": "f5e4763",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-16T16:24:42Z",
-        "message": "fix(m5): casa assunto em qualquer msg da thread + resolução por identidade acima do assunto",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/f5e4763d8c0fa878d3d6b313b089bcea12cf4950"
       }
     ],
     "stats": {
-      "total": 29,
+      "total": 28,
       "by_author": {
-        "fr34za": 29
+        "fr34za": 28
       },
       "by_day": {
         "2026-07-11": 1,
@@ -263,8 +255,7 @@
         "2026-07-05": 2,
         "2026-07-02": 2,
         "2026-07-01": 3,
-        "2026-06-18": 4,
-        "2026-06-16": 1
+        "2026-06-18": 4
       }
     }
   },
