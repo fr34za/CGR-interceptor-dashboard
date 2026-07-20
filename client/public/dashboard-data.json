@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T02:46:41.650752Z",
+  "generated_at": "2026-07-20T10:43:26.938235Z",
   "repository": {
     "name": "cgr-interceptor",
     "description": "Emails interceptor for Omie's G-click to reply directly on specific Gmail threads instead of starting new ones",
@@ -215,44 +215,12 @@
         "date": "2026-07-01T03:17:22Z",
         "message": "M5: match de assunto tolerante a separador (| - : etc.)",
         "url": "https://github.com/fr34za/cgr-interceptor/commit/9b0d8e58321538b74123b64db0488583ee5856e6"
-      },
-      {
-        "sha": "32e1d47",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-18T20:37:04Z",
-        "message": "Envio(M6): rotear pedido-via-grupo ao tomador real via Reply-To, sem postar no grupo",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/32e1d47288456b524bef6fb81f2635efc436b95f"
-      },
-      {
-        "sha": "00ae20d",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-18T20:36:33Z",
-        "message": "M5/gate: distinguir \"mensagem nossa\" de \"post de grupo\" (relay reescreve From)",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/00ae20dc2982fc47a1ec630d962f584bc42ad84b"
-      },
-      {
-        "sha": "14fe620",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-18T16:42:59Z",
-        "message": "Idempotência fecha loop de recaptura ramo DESCONHECIDO",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/14fe620aee16c7031fd1bbe13912cf2a88ab67ac"
-      },
-      {
-        "sha": "50bc6e2",
-        "author": "fr34za",
-        "email": "felipefreaza@gmail.com",
-        "date": "2026-06-18T16:14:23Z",
-        "message": "M5(clienteGate): passe primário por remetente + email_cliente (auto-envio)",
-        "url": "https://github.com/fr34za/cgr-interceptor/commit/50bc6e2ab867bebeb2733db91f3a05feb508c4ab"
       }
     ],
     "stats": {
-      "total": 29,
+      "total": 25,
       "by_author": {
-        "fr34za": 29
+        "fr34za": 25
       },
       "by_day": {
         "2026-07-16": 1,
@@ -263,8 +231,7 @@
         "2026-07-06": 1,
         "2026-07-05": 2,
         "2026-07-02": 2,
-        "2026-07-01": 3,
-        "2026-06-18": 4
+        "2026-07-01": 3
       }
     }
   },
